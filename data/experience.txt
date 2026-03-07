@@ -1,0 +1,29 @@
+Ajay Sharma Kalaga – Professional Experience
+
+Current Role Summary:
+Ajay works as a Programmer Analyst at Cognizant Technology Solutions. In this role he develops and maintains backend services using Python, Django, and Django REST Framework. He designs REST APIs, works with relational databases such as PostgreSQL and MySQL, optimizes database queries, investigates production issues, and collaborates with cross‑functional teams to deliver backend features.
+
+Company: Cognizant Technology Solutions
+Role: Programmer Analyst
+Start Date: September 2023
+
+Responsibilities:
+- Developed and maintained backend services using Python, Django, and Django REST Framework.
+-Built RESTful APIs with authentication, validation, pagination, and structured error handling.
+-Worked extensively with PostgreSQL/MySQL using Django ORM; handled schema migrations and
+query optimization.
+-Investigated and resolved production issues through logs and root-cause analysis.
+-Improved API response time by ~30% through database query optimization and backend tuning.
+-Participated in code reviews and applied software engineering best practices to maintain code
+quality.
+-Collaborated with cross-functional teams in Agile/Scrum sprints to deliver backend features.
+-Wrote and maintained technical documentation for APIs and backend workflows.
+-Designed reusable backend modules and utility functions to improve code maintainability and
+reduce duplication.
+-Performed basic unit and API testing to validate backend functionality before releases.
+-Monitored application logs and performance metrics to ensure system stability and reliability.
+-Assisted in deployment activities and environment configuration for backend services during
+releases.
+-Coordinated with QA teams to reproduce issues, validate fixes, and ensure smooth production rollouts.
+
+Alongside his project work, Ajay continues building backend applications using Django to strengthen his development skills.

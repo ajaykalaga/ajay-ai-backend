@@ -1,0 +1,38 @@
+Ajay Sharma Kalaga Technical Skills
+
+Programming Languages:
+- Python
+- JavaScript
+- SQL
+
+Backend Development:
+- Django
+- Django REST Framework
+- REST API development
+- Authentication systems
+- JWT authentication
+- CRUD applications
+
+Database:
+- PostgreSQL
+- MySQL
+- SQL
+- Django ORM
+- Database schema design
+- Query optimization
+
+Algorithms:
+- Data Structures and Algorithms
+- Trees
+- Graphs
+- BFS and DFS
+- Dynamic Programming
+- Sliding Window
+- Two Pointers
+
+AI & Machine Learning:
+- LangChain
+- Retrieval Augmented Generation (RAG)
+- LLM APIs
+- Vector databases
+- Embeddings

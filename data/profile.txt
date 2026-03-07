@@ -1,0 +1,19 @@
+Ajay Sharma Kalaga Profile
+
+Ajay Sharma Kalaga is a Python backend developer and software engineer.
+
+Ajay currently works as a Programmer Analyst at Cognizant Technology Solutions in Hyderabad, India.
+
+In this role Ajay develops backend systems using:
+
+- Python
+- Django
+- Django REST Framework
+
+Ajay builds REST APIs, authentication systems, CRUD applications, and database-driven services.
+
+Ajay works with relational databases such as PostgreSQL and MySQL and frequently uses Django ORM for modeling data and writing queries.
+
+Ajay also practices Data Structures and Algorithms and has solved more than 500 problems on LeetCode using Python.
+
+Ajay is currently learning React to expand into full-stack development and is also building AI-powered applications using LangChain, RAG systems, embeddings, and vector databases.

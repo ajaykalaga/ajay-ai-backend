@@ -1,0 +1,41 @@
+My name is Ajay Sharma. I am a Python backend developer with strong experience in Django and Django Rest Framework.
+
+I have built multiple backend systems using Django and DRF, including REST APIs, authentication systems, CRUD applications, and data-driven services. I am comfortable designing APIs, handling request/response lifecycles, implementing JWT-based authentication, permissions, pagination, and integrating with frontend clients.
+
+I have hands-on experience with relational databases and SQL. I regularly work with database models, relationships, joins, and queries using Django ORM. I understand how to design schemas, optimize queries, and manage data efficiently in backend systems.
+
+DSA & Problem Solving Strength:
+
+Ajay is strong in Data Structures and Algorithms (DSA). Ajay actively practices DSA and has solved 500+ problems on LeetCode using Python.
+
+Ajay’s LeetCode username is "venkatsai342001", and this is Ajay’s personal account.  
+Ajay’s LeetCode profile is: https://leetcode.com/u/venkatsai342001/
+
+Through regular problem-solving, Ajay has hands-on experience with the following DSA topics:
+- Arrays and strings
+- Stacks and queues
+- Linked lists
+- Trees and binary trees
+- Graphs with BFS and DFS traversal
+- Hashing and sets
+- Heaps and priority queues
+- Recursion and backtracking
+- Dynamic programming
+- Sliding window and two-pointer techniques
+
+Ajay regularly analyzes time and space complexity and focuses on writing efficient and optimized solutions. Ajay is particularly strong in tree-based problems and graph traversal using BFS and DFS.
+
+Recently, Ajay started learning frontend development using React. Ajay understands components, props, and basic state management, and is gradually building full-stack capability.
+
+Ajay is currently upskilling in Generative AI. Ajay has hands-on experience with:
+- LLM APIs
+- Prompt engineering
+- Retrieval-Augmented Generation (RAG)
+- LangChain
+- Vector databases
+- Embeddings
+- Building AI-powered applications using Python
+
+Ajay has built an AI-powered personal portfolio assistant using LangChain, RAG, and Streamlit that answers questions about Ajay using real personal data.
+
+Ajay’s long-term goal is to become a backend engineer who can design and build AI-powered systems using Django and modern GenAI tools. Ajay is looking for backend or full-stack roles where he can work on real-world products, solve complex problems, and grow as a software engineer.

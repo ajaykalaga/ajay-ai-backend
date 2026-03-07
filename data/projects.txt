@@ -1,0 +1,79 @@
+Project: Task Management API
+I built a task management backend using Django and Django Rest Framework. The system supports user authentication, creating tasks, updating status, and deleting tasks. I implemented JWT-based authentication, role-based access, and pagination. The API follows REST principles and is used by a frontend client.
+
+Project: Blog Platform Backend
+I developed a backend for a blogging platform using Django. Users can register, create posts, edit them, and comment. I implemented user authentication, permissions, and database models. The project helped me understand ORM, relationships, and query optimization.
+
+Project: AI Portfolio Assistant (Ask Ajay)
+I am building an AI-powered portfolio assistant using LangChain, RAG, and Streamlit. The system ingests my resume and project notes, stores them in a vector database, and allows users to ask questions about me. The bot answers only using my real data and avoids hallucinations. This project demonstrates my understanding of LLM APIs, embeddings, vector databases, and retrieval-augmented generation.
+Ajay Sharma Kalaga – Projects
+
+Project Name: Task Management API
+
+Description:
+Ajay built a task management backend system using Django and Django REST Framework.
+
+Key Features:
+- User authentication and authorization
+- Create, update, and delete tasks
+- Task status management
+- Role-based access control
+- Pagination for task listings
+
+Technologies Used:
+- Python
+- Django
+- Django REST Framework
+- JWT Authentication
+- REST API design
+
+Purpose:
+This project demonstrates Ajay's ability to design backend systems, implement secure authentication, and build scalable REST APIs that can be consumed by frontend clients.
+
+
+
+Project Name: Blog Platform Backend
+
+Description:
+Ajay developed a backend system for a blogging platform using Django.
+
+Key Features:
+- User registration and authentication
+- Create, edit, and delete blog posts
+- Comment system for posts
+- Permissions for content management
+- Database model relationships
+
+Technologies Used:
+- Python
+- Django
+- SQL
+- Django ORM
+
+Purpose:
+This project helped Ajay gain strong experience in database modeling, ORM relationships, query optimization, and backend architecture.
+
+
+
+Project Name: AI Portfolio Assistant (Ask Ajay)
+
+Description:
+Ajay built an AI-powered portfolio assistant that answers questions about his skills, experience, and projects.
+
+Key Features:
+- Retrieval Augmented Generation (RAG)
+- Semantic search over personal knowledge base
+- AI chatbot interface
+- Context-aware responses based on personal data
+
+Technologies Used:
+- Python
+- LangChain
+- Chroma Vector Database
+- Groq LLM API
+- Streamlit
+- Flask API backend
+- Embeddings
+
+Purpose:
+This project demonstrates Ajay's understanding of modern AI systems including LLM APIs, vector databases, embeddings, and RAG architecture. The assistant allows visitors to interactively learn about Ajay's background and technical skills.
