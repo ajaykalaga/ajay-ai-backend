@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
+from langchain_chroma import Chroma
 from langchain_classic.chains.retrieval_qa.base import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -44,11 +44,17 @@ DATA_DIR = "data"
 # -----------------------------
 
 
-embeddings = HuggingFaceInferenceAPIEmbeddings(
-    api_key=os.getenv("HUGGINGFACEHUB_API_TOKEN"),
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+embeddings = HuggingFaceEndpointEmbeddings(
+    model="sentence-transformers/all-MiniLM-L6-v2",
+    huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
 )
 
+try:
+    test = embeddings.embed_query("test")
+    print("✅ Embeddings working")
+except Exception as e:
+    print(f"❌ Embeddings failed: {e}")
+    raise
 
 # -----------------------------
 # Build Vector DB
