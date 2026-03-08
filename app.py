@@ -102,15 +102,11 @@ def build_vector_db():
 # Load Vector DB
 # -----------------------------
 
-if os.path.exists(DB_DIR):
-    print("Loading existing vector database...")
-    db = Chroma(
-        persist_directory=DB_DIR,
-        embedding_function=embeddings
-    )
-else:
-    print("Vector database not found. Building it...")
-    db = build_vector_db()
+print("Loading vector database...")
+db = Chroma(
+    persist_directory=DB_DIR,
+    embedding_function=embeddings
+)
 
 
 # -----------------------------
