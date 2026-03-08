@@ -175,6 +175,10 @@ qa = RetrievalQA.from_chain_type(
 # API Route
 # -----------------------------
 
+@app.route("/")
+def home():
+    return "Ajay AI backend running"
+
 @app.route("/chat", methods=["POST"])
 def chat():
 
