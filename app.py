@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_classic.chains.retrieval_qa.base import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
@@ -43,7 +43,9 @@ DATA_DIR = "data"
 # Embeddings
 # -----------------------------
 
-embeddings = HuggingFaceEmbeddings(
+
+embeddings = HuggingFaceInferenceAPIEmbeddings(
+    api_key=os.getenv("HUGGINGFACEHUB_API_TOKEN"),
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
