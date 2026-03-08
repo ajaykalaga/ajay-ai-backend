@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain_classic.chains.retrieval_qa.base import RetrievalQA
+from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
@@ -103,10 +103,16 @@ def build_vector_db():
 # -----------------------------
 
 print("Loading vector database...")
-db = Chroma(
-    persist_directory=DB_DIR,
-    embedding_function=embeddings
-)
+
+if not os.path.exists(DB_DIR):
+    print("Vector DB not found. Building database...")
+    db = build_vector_db()
+else:
+    print("Vector DB found. Loading existing database...")
+    db = Chroma(
+        persist_directory=DB_DIR,
+        embedding_function=embeddings
+    )
 
 
 # -----------------------------
