@@ -1,25 +1,14 @@
-streamlit
-langchain
-langchain-classic
-langchain-community
-langchain-groq
-python-dotenv
-chromadb
-pypdf
-sentence-transformers
-flask
 flask
 flask-cors
+gunicorn
+
 python-dotenv
 
 langchain
 langchain-community
-langchain-classic
-langchain-groq
 langchain-text-splitters
+langchain-groq
 
 chromadb
 sentence-transformers
 pypdf
-
-gunicorn
